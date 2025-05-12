@@ -141,7 +141,7 @@ class PetManager {
                             <p class="card-text">Energy: ${pet.energy}</p>
                             <p class="card-text">Fullness: ${pet.fullness}</p>
                             <p class="card-text">Happiness: ${pet.happiness}</p>
-                            <div class="d-flex justify-content-center gap-5 flex-wrap mt-auto">
+                            <div class="d-flex justify-content-center gap-3 flex-wrap mt-auto">
                                 <button class="btn btn-outline-secondary btn-sm" onclick="app.performAction(${index}, 'nap')">Sleep</button>
                                 <button class="btn btn-outline-success btn-sm" onclick="app.performAction(${index}, 'play')">Play</button>
                                 <button class="btn btn-outline-primary btn-sm" onclick="app.performAction(${index}, 'eat')">Eat</button>
